@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/M.HOSEIN/Desktop/vhdl/may_solve/final_project/simulatre_processor_isim_beh.exe" -prj "C:/Users/M.HOSEIN/Desktop/vhdl/may_solve/final_project/simulatre_processor_beh.prj" "work.simulatre_processor" 

@@ -1,0 +1,2 @@
+vhdl work "storage.vhd"
+vhdl work "simulate_storage.vhd"

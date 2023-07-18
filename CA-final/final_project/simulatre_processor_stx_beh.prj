@@ -1,0 +1,2 @@
+vhdl isim_temp "processor.vhd"
+vhdl isim_temp "simulate_processor.vhd"

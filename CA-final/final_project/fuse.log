@@ -1,0 +1,19 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/M.HOSEIN/Desktop/vhdl/may_solve/final_project/simulatre_processor_isim_beh.exe -prj C:/Users/M.HOSEIN/Desktop/vhdl/may_solve/final_project/simulatre_processor_beh.prj work.simulatre_processor 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/M.HOSEIN/Desktop/vhdl/may_solve/final_project/processor.vhd" into library work
+Parsing VHDL file "C:/Users/M.HOSEIN/Desktop/vhdl/may_solve/final_project/simulate_processor.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity Processor [processor_default]
+Compiling architecture behavior of entity simulatre_processor
+Time Resolution for simulation is 1ps.
+Compiled 6 VHDL Units
+Built simulation executable C:/Users/M.HOSEIN/Desktop/vhdl/may_solve/final_project/simulatre_processor_isim_beh.exe
+Fuse Memory Usage: 36484 KB
+Fuse CPU Usage: 327 ms

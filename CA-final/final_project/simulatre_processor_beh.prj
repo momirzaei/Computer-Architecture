@@ -1,0 +1,2 @@
+vhdl work "processor.vhd"
+vhdl work "simulate_processor.vhd"

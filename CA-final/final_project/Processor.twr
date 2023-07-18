@@ -1,0 +1,131 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2I
+-n 3 -fastpaths -xml Processor.twx Processor.ncd -o Processor.twr Processor.pcf
+
+Design file:              Processor.ncd
+Physical constraint file: Processor.pcf
+Device,package,speed:     xa7a100t,csg324,I,-2I (PRELIMINARY 1.07 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+i<0>           |Output<0>      |    6.656|
+i<0>           |Output<1>      |    6.368|
+i<0>           |Output<2>      |    6.829|
+i<0>           |Output<3>      |    6.259|
+i<0>           |Output<4>      |    6.576|
+i<0>           |Output<5>      |    6.257|
+i<0>           |Output<6>      |    6.369|
+i<0>           |Output<7>      |    6.713|
+i<0>           |Output<8>      |    6.724|
+i<0>           |Output<9>      |    6.544|
+i<0>           |Output<10>     |    6.447|
+i<0>           |Output<11>     |    6.995|
+i<0>           |Output<12>     |    6.758|
+i<0>           |Output<13>     |    6.848|
+i<0>           |Output<14>     |    6.851|
+i<0>           |Output<15>     |    7.028|
+i<1>           |Output<0>      |    5.968|
+i<1>           |Output<1>      |    6.673|
+i<1>           |Output<2>      |    6.146|
+i<1>           |Output<3>      |    6.565|
+i<1>           |Output<4>      |    6.140|
+i<1>           |Output<5>      |    5.967|
+i<1>           |Output<6>      |    6.691|
+i<1>           |Output<7>      |    6.092|
+i<1>           |Output<8>      |    6.293|
+i<1>           |Output<9>      |    5.934|
+i<1>           |Output<10>     |    6.769|
+i<1>           |Output<11>     |    6.435|
+i<1>           |Output<12>     |    6.475|
+i<1>           |Output<13>     |    6.109|
+i<1>           |Output<14>     |    6.286|
+i<1>           |Output<15>     |    6.278|
+i<2>           |Output<0>      |    5.989|
+i<2>           |Output<1>      |    6.403|
+i<2>           |Output<2>      |    6.158|
+i<2>           |Output<3>      |    6.298|
+i<2>           |Output<4>      |    6.262|
+i<2>           |Output<5>      |    5.611|
+i<2>           |Output<6>      |    6.420|
+i<2>           |Output<7>      |    6.409|
+i<2>           |Output<8>      |    6.406|
+i<2>           |Output<9>      |    6.244|
+i<2>           |Output<10>     |    6.493|
+i<2>           |Output<11>     |    6.679|
+i<2>           |Output<12>     |    6.101|
+i<2>           |Output<13>     |    6.550|
+i<2>           |Output<14>     |    6.539|
+i<2>           |Output<15>     |    6.726|
+i<3>           |Output<0>      |    5.811|
+i<3>           |Output<1>      |    6.193|
+i<3>           |Output<2>      |    5.973|
+i<3>           |Output<3>      |    6.086|
+i<3>           |Output<4>      |    6.113|
+i<3>           |Output<5>      |    5.820|
+i<3>           |Output<6>      |    6.213|
+i<3>           |Output<7>      |    6.450|
+i<3>           |Output<8>      |    6.250|
+i<3>           |Output<9>      |    6.275|
+i<3>           |Output<10>     |    6.290|
+i<3>           |Output<11>     |    6.268|
+i<3>           |Output<12>     |    6.326|
+i<3>           |Output<13>     |    6.326|
+i<3>           |Output<14>     |    6.135|
+i<3>           |Output<15>     |    6.512|
+i<4>           |Output<0>      |    5.831|
+i<4>           |Output<1>      |    6.569|
+i<4>           |Output<2>      |    6.011|
+i<4>           |Output<3>      |    6.462|
+i<4>           |Output<4>      |    6.095|
+i<4>           |Output<5>      |    5.976|
+i<4>           |Output<6>      |    6.579|
+i<4>           |Output<7>      |    6.239|
+i<4>           |Output<8>      |    6.250|
+i<4>           |Output<9>      |    6.063|
+i<4>           |Output<10>     |    6.656|
+i<4>           |Output<11>     |    6.523|
+i<4>           |Output<12>     |    6.473|
+i<4>           |Output<13>     |    6.370|
+i<4>           |Output<14>     |    6.372|
+i<4>           |Output<15>     |    6.557|
+---------------+---------------+---------+
+
+
+Analysis completed Sat Jul 09 20:51:40 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4948 MB
+
+
+
